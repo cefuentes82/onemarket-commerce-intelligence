@@ -1,13 +1,13 @@
 {
   "name": "onemarket-commerce-intelligence",
-  "version": "1.0.0",
-  "description": "Commerce intelligence for international trade — HTS classification, duty calculation, PGA requirements, and entry type selection. Powered by Oracle INNs (specialized AI reasoning networks).",
+  "version": "2.0.0",
+  "description": "Commerce intelligence for international trade. Covers the full import lifecycle: sourcing strategy, product classification, landed cost analysis, regulatory compliance, and trade optimization. Built on real customs transaction data and CBP specifications.",
   "author": {
     "name": "OneMarket World",
     "email": "hello@onemarket.world",
-    "url": "https://onemarket.world"
+    "url": "https://github.com/cefuentes82/onemarket-commerce-intelligence"
   },
-  "repository": "https://github.com/onemarket-world/commerce-intelligence",
+  "repository": "https://github.com/cefuentes82/onemarket-commerce-intelligence",
   "license": "MIT",
   "keywords": [
     "customs",
@@ -18,12 +18,12 @@
     "export",
     "trade",
     "compliance",
-    "pga",
-    "fda",
-    "cbp",
-    "logistics",
-    "supply-chain",
+    "sourcing",
     "landed-cost",
+    "optimization",
+    "supply-chain",
+    "fta",
+    "sanctions",
     "commerce"
   ],
   "skills": "./skills/"
