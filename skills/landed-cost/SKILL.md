@@ -1,7 +1,7 @@
 ---
 name: landed-cost
 description: Calculate the complete landed cost of importing a product — from factory to warehouse door. Covers duty, taxes, fees, freight, insurance, brokerage, and entry type selection. Use when someone asks about import costs, duty rates, tariffs, "how much will it cost to import", landed cost, entry types, or total cost of ownership for imported goods.
-argument-hint: [product] [value] [origin] [destination]
+argument-hint: [quantity] [product] from [origin] to [destination] at [total or per-unit value]
 ---
 
 # Complete Landed Cost Analysis
@@ -131,11 +131,13 @@ Use these tools in sequence for maximum accuracy:
 
 ## Important Rules
 
-- Always classify the product first. The HTS code determines the duty rate, which is usually the largest variable cost.
+- Always classify the product first — use `/classify` if the HTS code isn't known. The HTS code determines the duty rate, which is usually the largest variable cost.
 - Declared value = transaction value (what was paid or payable). Not retail. Not replacement cost.
 - Present per-unit economics — this is what importers use for pricing decisions.
 - Flag optimization opportunities: "If you shifted to Vietnam, Section 301 drops off, saving $X,XXX."
 - Include a risk note for any tariff that may change (Section 301 rates are policy-dependent).
 - If the importer provides an Incoterm, respect it. FOB means the buyer pays freight. CIF means freight and insurance are included in the price.
+- For multi-origin imports, calculate each origin separately, then present a combined total.
+- After presenting the analysis, suggest `/comply` to check regulatory requirements and `/optimize` to explore cost reduction strategies.
 
 Use $ARGUMENTS for product, value, origin, and destination if provided.

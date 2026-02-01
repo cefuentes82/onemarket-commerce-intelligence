@@ -88,5 +88,6 @@ If available, use these tools to enrich the analysis with real data:
 - China+1 is the dominant strategy: maintain China supply chain but develop alternatives (Vietnam, India, Mexico, etc.)
 - Rules of origin matter for FTA benefits — the product must meet origin requirements, not just ship from the FTA country.
 - Lead time is cost. A 45-day ocean transit vs 3-day truck from Mexico changes working capital requirements.
+- For best results, run `/classify` first to determine the HTS code — this drives the duty rate comparisons across origins. Follow with `/landed-cost` for detailed cost analysis of the recommended option.
 
 Use $ARGUMENTS as the product or category to research.

@@ -118,5 +118,6 @@ Use these tools to quantify optimization scenarios:
 - Consider total cost, not just duty. Shifting production to save 7.5% duty but adding $3/unit freight may not net out.
 - Every strategy has setup costs. Include them in the ROI calculation.
 - Section 301 tariffs on China have made optimization urgent for China-sourcing importers. This is where the biggest savings typically are right now.
+- Use `/classify` to verify current HTS codes before optimizing — over-classification is the most common source of unnecessary duty. Use `/source` to explore alternative origins when country shifting is recommended.
 
 Use $ARGUMENTS as the product or scenario to optimize.

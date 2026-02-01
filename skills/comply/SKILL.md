@@ -114,5 +114,6 @@ For each inquiry, provide:
 - Prior notice and ISF have hard deadlines — missing them means goods are held.
 - Recommend that importers use a licensed customs broker for any shipment with PGA requirements.
 - When in doubt, recommend a ruling request from CBP or the relevant agency — getting it in writing protects the importer.
+- After the compliance assessment, suggest `/landed-cost` to factor regulatory costs into the total and `/optimize` to explore strategies that reduce compliance burden (e.g., shifting to origins without Section 301 exposure).
 
 Use $ARGUMENTS as the product or trade scenario to evaluate.

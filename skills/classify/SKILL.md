@@ -64,5 +64,6 @@ Use these tools in combination for maximum accuracy:
 - Country of origin affects duty rates but not the HTS code itself.
 - Real-world transaction data is evidence, not authority — importers can file incorrectly. Use it to validate, not to override GRI analysis.
 - When Oracle classification and transaction patterns agree, confidence is high. When they diverge, recommend a binding ruling from CBP.
+- After classification, suggest `/landed-cost` to calculate total import costs and `/comply` to check regulatory requirements for the classified product.
 
 Use $ARGUMENTS as the product description if provided.
